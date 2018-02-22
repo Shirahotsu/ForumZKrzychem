@@ -29,11 +29,11 @@
 	</div>
 	<div class="loginForm">
 		<form action="">
-			<input type="text" name="" placeholder="Login" id="">
-			<input type="text" name="" placeholder="Haslo" id="">
+			<input type="text" name="login" placeholder="Login" id="">
+			<input type="password" name="password" placeholder="Haslo" id="">
+                        <input type="submit" class="btn-info btn loginBtn" value="Zaloguj">
+                        <input type="submit" class="btn-info btn loginBtn" value="Zarejestruj siê!">
 		</form>
-		<button type="button" class="btn-info btn loginBtn">zaloguj</button>
-		<button type="button" class="btn-info btn loginBtn">Zarejestruj siÄ™</button>
 	</div>
 </div>
 </div>

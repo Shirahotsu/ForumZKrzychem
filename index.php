@@ -11,7 +11,7 @@
 </style>
 </head>
 <body>
-	<div class="mainHeader">
+	<header class="mainHeader">
 		<img class="banner" src="images/banner.jpg" alt="">
 <div class="header">
 	<div class="menu">
@@ -28,16 +28,19 @@
 		</ul>
 	</div>
 	<div class="loginForm">
-		<form action="">
-			<input type="text" name="" placeholder="Login" id="">
-			<input type="text" name="" placeholder="Haslo" id="">
+		<form action="index.php" method="post">
+			<!-- <input type="text" name="login" placeholder="Login" id="">
+			<input type="password" name="password" placeholder="Haslo" id="">
+      <input type="submit" class="btn-info btn loginBtn" value="Zaloguj">
+      <input type="submit" class="btn-info btn loginBtn" value="Zarejestruj siê!"> -->
 		</form>
-		<button type="button" class="btn-info btn loginBtn">zaloguj</button>
-		<button type="button" class="btn-info btn loginBtn">Zarejestruj się</button>
 	</div>
 </div>
+</header>
+<div class="topVoid">
+
 </div>
-<div class="content">
+<div class="mainContent">
 	<div class="postDiv">
 		<div class="contentHeader">ELO</div>
 		<div class="contentQuestion">
@@ -59,7 +62,7 @@
 				</ul>
 			</div></div>
 			<div class="contentAnswares">
-				<div class="contentAnswareHeader">#Wypierdalać</div>
+				<div class="contentAnswareHeader">#WypierdalaÄ‡</div>
 				<div class="contentAnsware">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloremque quibusdam quis, veritatis doloribus porro adipisci vero facere, velit saepe quasi illo quod aliquam natus, nobis cupiditate iusto minima! Eum dolores veritatis, laudantium vel itaque praesentium veniam rem quod, consectetur, voluptate dolorem? Sint quod sapiente officia nulla vitae animi, architecto possimus tempore, vero, autem natus maiores pariatur ipsum eaque adipisci tenetur iusto iure non nostrum reprehenderit. Soluta expedita optio aspernatur tempore sapiente officia, commodi quaerat. Deleniti in ducimus libero est doloribus maxime asperiores impedit, quas totam, labore optio delectus et, molestiae! Accusamus assumenda culpa, neque esse distinctio ab natus dolore enim voluptatibus dolorem libero ipsam a suscipit aliquam quod, exercitationem, aspernatur aliquid eum voluptate. Possimus atque doloribus illo illum. Officia, voluptas aut eligendi quibusdam repellendus, iusto quos velit similique ducimus minus repudiandae perspiciatis voluptates? Molestias, quas optio error explicabo perferendis non commodi reprehenderit ipsum! Officiis beatae distinctio deleniti, neque nam eos consequatur cumque, enim nisi nobis eaque soluta adipisci error vero veniam totam ipsum ut veritatis a vel rerum ipsam? Facere laborum libero excepturi, ratione id, sed doloribus ex maxime cupiditate nesciunt distinctio nisi magnam tempora aliquam reiciendis deleniti at alias. Sint minus doloribus ex aliquam deleniti debitis facilis corrupti.
 				</div>

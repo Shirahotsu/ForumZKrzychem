@@ -190,18 +190,3 @@ height: inherit;
   padding: 18px;
   background-color: #fff;
 }
-
-
-.registerDiv{
-  width: 200px;
-  height: 800px;
-  background-color: red;
-}
-
-.registerInput{
-  height: 50px;
-  width: 80%;
-  padding: 8px;
-  margin: 30px;
-  border-radius: 10px;
-}

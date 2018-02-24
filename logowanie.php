@@ -10,18 +10,19 @@
 
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="registryStyle.css" type="text/css" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 <body>
 <div class="content">
   <div class="postDiv">
-    <div class="registerDiv">
-      <span class="info">Zarejestuj się</span>
+    <div id="regDiv" class="registerDiv">
       <div class="innerDiv">
       <form action="">
+        <input class="registerInput" id="i4" type="text" name="mail" placeholder="e-mail" id="">
         <input class="registerInput" id="i1" type="text" name="login" placeholder="Login" id="">
         <input class="registerInput" id="i2" type="password" name="password" placeholder="Haslo" id="">
-        <input class="registerInput" id="i3" type="password" name="password" placeholder="Powtorz haslo" id="">
-        <input class="registerInput" id="i4" type="text" name="mail" placeholder="e-mail" id="">
+        <input class="registerInput" id="i3" type="password" name="password" placeholder="Powtórz haslo" id="">
+        <input type="submit" id="reg" class="btn-info btn loginBtn" value="Zarejestruj">
       </form>
       </div>
   </div>

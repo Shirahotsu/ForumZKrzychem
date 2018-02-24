@@ -36,7 +36,7 @@
 			<input type="password" name="password" placeholder="Haslo" id="">
       <div class="btns">
         <input type="submit" class="btn-info btn loginBtn" value="Zaloguj">
-        <input type="submit" class="btn-info btn loginBtn" value="Zarejestruj si�!">
+        <input type="submit" class="btn-info btn loginBtn" value="Zarejestruj się!">
       </div>
 		</form>
 	</div>

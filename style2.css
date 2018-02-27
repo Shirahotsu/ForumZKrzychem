@@ -109,6 +109,16 @@ height: inherit;
   width: 80%;
   margin-bottom: 10px;
 }
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {background-color: #f1f1f1;
+cursor: pointer;
+}
+.dropdown-content li:hover a{
+  color:#30394c;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {transform: translateX(0px);;}
 
 .moreProfileInfo{
 }

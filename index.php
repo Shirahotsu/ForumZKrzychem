@@ -22,18 +22,18 @@
 			<ul><a href="" class="menuBtns">Kategorie</a></ul>
 			<li><a href="" class="menuBtns">Najnowsze</a></li>
 			<li><a href="" class="menuBtns">Jebij posta</a></li>
-			<input type="text" name="search" placeholder="Wyszukaj" id=""><button type="button" class="btn-info btn searchBtn">XD</button>
+			<input type="text" name="search" placeholder="Wyszukaj"><button type="button" class="btn-info btn searchBtn">XD</button>
 		</ul>
 	</div>
 	<div class="profile">
 		<ul>
-			<ul><a id="profileBtn" href="#" class="menuBtns">Profil</a></ul>
+			<ul><a id="profileBtn" onclick="myFunction()" href="#" class="menuBtns" data-toggle="collapse" data-target="#navbar" >Profil</a></ul>
 		</ul>
 	</div>
-	<div class="loginForm">
+	<div class="loginForm" id="navbar">
     <form action="zaloguj.php" method="post">
-			<input type="text" name="login" placeholder="Login" id="">
-			<input type="password" name="password" placeholder="Haslo" id="">
+			<input type="text" name="login" placeholder="Login" >
+			<input type="password" name="password" placeholder="Haslo" >
       <div class="btns">
         <input type="submit" class="btn-info btn loginBtn" value="Zaloguj">
         <input type="submit" class="btn-info btn loginBtn" value="Zarejestruj się!">

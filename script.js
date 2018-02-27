@@ -14,10 +14,29 @@ $( window ).scroll(function() {
      }
 
 });
-$(document).ready(function(){
-  $('#profileBtn').on('click',dropdown);
-});
+// $(document).ready(function(){
+//   $('#profileBtn').on('click',dropdown);
+// });
+//
+// function dropdown(){
+//   $('.loginForm').css({'transform':'translateX(500px)'});
+// }
 
-function dropdown(){
-  $('.loginForm').css({'transform':'translateX(500px)'});
+function myFunction() {
+    document.getElementById("profileBtn").classList.toggle("show");
 }
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.profile')) {
+
+    var dropdowns = document.getElementsByClassName("loginForm");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+};

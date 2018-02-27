@@ -40,7 +40,7 @@
                 <input type="password" name="password" placeholder="Haslo">
                 <div class="btns">
                   <input type="submit" class="btn-info btn loginBtn" value="Zaloguj">
-                  <input type="submit" class="btn-info btn loginBtn" value="Zarejestruj się!">
+                  <a href="logowanie.php" class="btn-info btn loginBtn">Zarejestruj się!</a>
                 </div>
               </form>
             </div>

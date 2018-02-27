@@ -14,16 +14,6 @@ $( window ).scroll(function() {
      }
 
 });
-// $(document).ready(function(){
-//   $('#profileBtn').on('click',dropdown);
-// });
-//
-// function dropdown(){
-//   $('.loginForm').css({'transform':'translateX(500px)'});
-// }
-
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }

@@ -1,20 +1,26 @@
 body{
-  background-image: url(images/regImg.jpeg);
   color: #212529;
 }
 
+.bgc{
+  max-width: 100%;
+  position: absolute;
+}
+
 .registerDiv{
-  margin:80px auto;
+  margin:auto;
   width: 750px;
   height: 750px;
   background-color: #fff;
   padding: 20px;
   border-radius: 50%;
   position: relative;
+  top: 80px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  opacity: 0.96;
 }
 
 .registerInput{

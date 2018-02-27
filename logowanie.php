@@ -13,6 +13,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 <body>
+  <img src="images/regImg.jpeg" alt="" class="bgc">
 <div class="content">
   <div class="postDiv">
     <div id="regDiv" class="registerDiv">

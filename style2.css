@@ -2,6 +2,8 @@
   position: absolute;
   max-width: 100%;
   height: 400px;
+  z-index: 20;
+
 }
 .header{
   background-color: #452b98;
@@ -13,7 +15,6 @@
 .mainHeader{
   height: 100px;
   position: relative;
-  z-index: 20;
 }
 .menu{
   width: 60%;
@@ -60,6 +61,7 @@ a, a:hover{
   text-align: center;
   width: 100%;
   color: #8b84cc;
+  z-index: 20;
 }
 .menuBtns:hover{
 color: #fff;
@@ -70,6 +72,8 @@ position: absolute;
 right: 0;
 width: 14%;
 height: inherit;
+z-index: 20;
+
 }
 
 .profile  li,ul{
@@ -92,7 +96,7 @@ height: inherit;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  z-index: 22;
+  z-index: 2;
 }
 .btns{
 
@@ -108,17 +112,41 @@ height: inherit;
 .loginBtn{
   width: 80%;
   margin-bottom: 10px;
-}
-/* Change color of dropdown links on hover */
-.dropdown-content li:hover {background-color: #f1f1f1;
-cursor: pointer;
-}
-.dropdown-content li:hover a{
-  color:#30394c;
+  background-color: #452b98;
+  border: 0px;
 }
 
+.loginBtn:hover{
+  background-color: #855dd5;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    top:0px;
+    min-height: 100px;
+    width:100vw;
+    z-index: 1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display:block;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+    width:100%;
+    height: 80px;
+    transform: rotateX(90deg);
+    transition: transform, 0.2s, easy-in-out;
+}
+
+
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {transform: translateX(0px);;}
+.show {
+  transition: transform, 0.2s, easy-in-out;
+  transform: rotateX(0deg);
+}
 
 .moreProfileInfo{
 }

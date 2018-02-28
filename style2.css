@@ -56,6 +56,12 @@ a, a:hover{
   margin: 0;
   height: 40px;
   box-sizing: border-box;
+  background-color: #452b98;
+}
+
+.searchBtn:hover{
+  background-color: #855dd5;
+  cursor: pointer;
 }
 .menuBtns{
   text-align: center;

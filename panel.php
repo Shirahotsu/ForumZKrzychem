@@ -53,9 +53,10 @@
       <div class="postDiv">
         <div class="contentHeader">
           <ul>
-            <ul><a href="" class="prolifeBtns">Kategorie</a></ul>
-            <li><a href="" class="prolifeBtns">Najnowsze</a></li>
-            <li><a href="" class="prolifeBtns">Jebij posta</a></li>
+            <li><a href="#" class="prolifeBtns">Moje posty</a></li>
+            <ul><a href="#" class="prolifeBtns">Zmiana hasla</a></ul>
+            <li><a href="#" class="prolifeBtns">Zmiana maila</a></li>
+            <li><a href="#" class="prolifeBtns">Wyloguj</a></li>
           </ul>
         </div>
         <div class="contentQuestion">

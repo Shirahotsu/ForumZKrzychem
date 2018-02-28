@@ -1,15 +1,20 @@
 .prolifeBtns{
+  color: #8b84cc;
 
 }
+.prolifeBtns:hover{
+  color: #fff;
 
-.menu  li,ul,input{
+}
+.contentHeader  li,.contentHeader ul,.contentHeader input{
   height: inherit;
   width: 100%;
-  font-size: 1.4em;
+  font-size: 1em;
   align-items: center;
   display: flex;
+  justify-content: space-around;
 }
-.menu input{
+.contentHeader input{
   height: 40px;
   font-size: 1rem;
 }

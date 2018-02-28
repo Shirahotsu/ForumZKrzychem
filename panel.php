@@ -62,19 +62,14 @@
         <div class="contentQuestion">
 
           <div class="contentInerQuestion">
-            <?php
-            if(isset($_SESSION['zalogowany']))
-            {
-                echo "ZAJEBISCIE";
-            }
-            ?>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero temporibus maiores qui nisi laborum repellat perspiciatis aliquam sunt, pariatur cupiditate neque corporis inventore veniam, voluptatum suscipit odio incidunt repudiandae reiciendis quae
-              cum molestias. Fuga adipisci inventore officiis consectetur illo voluptatum? Deserunt cum quos, ex iste dignissimos perspiciatis illum rerum maxime neque. Explicabo exercitationem dignissimos fugit libero inventore cumque, reiciendis voluptates
-              praesentium accusantium. Est laboriosam, architecto, rem at ipsa quo ea deserunt eaque ab doloremque soluta nulla aliquam vel dolor, nemo tempore quisquam quia officiis. Dicta rem, officiis voluptate repellendus suscipit facere excepturi
-              vero animi nesciunt, ducimus reprehenderit id neque ipsa repellat fugit quidem facilis enim exercitationem dolorem omnis. Reiciendis temporibus hic fugit cupiditate quo quisquam, alias minima eos. Voluptates minus nihil sequi, obcaecati
-              harum quidem quo officia voluptate aut blanditiis. Ipsum dolorum deserunt quisquam inventore suscipit modi aperiam quibusdam. Maxime sequi porro praesentium perspiciatis exercitationem, accusamus vel quos soluta quis esse fugiat numquam
-              voluptatem reiciendis labore eius temporibus, incidunt molestias animi illum laudantium doloribus sint, amet natus debitis. Explicabo quas architecto, obcaecati. Itaque omnis, placeat debitis officia quia impedit ad tenetur incidunt esse
-              delectus aliquam provident iste? Sunt ut a deserunt, accusantium eaque modi voluptatibus. Necessitatibus cupiditate ducimus quas ratione.
+            <form action="" method="post">
+              <input type="password" name="password" placeholder="Stare hasło">
+              <input type="password" name="password" placeholder="Nowe hasło">
+              <input type="password" name="password" placeholder="Hasło">
+              <div class="btns">
+                <input type="submit" class="btn-info btn loginBtn" value="Zmień hasło">
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -84,5 +79,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
     <script src="script.js"></script>
+    <script src="panelScript.js"></script>
   </body>
   </html>

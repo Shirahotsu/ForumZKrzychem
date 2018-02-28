@@ -18,7 +18,20 @@
   height: 40px;
   font-size: 1rem;
 }
-
+form{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 input{
-  width: 50%;
+  width: 60%;
+  margin:20px;
+}
+.loginBtn{
+  width: 60%;
+  margin: auto;
 }

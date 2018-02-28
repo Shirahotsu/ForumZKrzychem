@@ -30,22 +30,8 @@
         </div>
         <div class="profile">
           <ul>
-            <ul><a id="profileBtn" onclick="myFunction()" href="#" class="menuBtns" data-toggle="collapse">Profil</a></ul>
+            <ul><a id="profileBtn"  href="#" class="menuBtns" data-toggle="collapse">Profil</a></ul>
           </ul>
-        </div>
-        <div class="dropdown">
-          <div id="myDropdown" class="dropdown-content">
-            <div class="loginForm" id="navbar">
-              <form action="zaloguj.php" method="post">
-                <input type="text" name="login" placeholder="Login">
-                <input type="password" name="password" placeholder="Haslo">
-                <div class="btns">
-                  <input type="submit" class="btn-info btn loginBtn" value="Zaloguj">
-                  <a href="logowanie.php" class="btn-info btn loginBtn">Zarejestruj się!</a>
-                </div>
-              </form>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -53,22 +39,20 @@
       <div class="postDiv">
         <div class="contentHeader">
           <ul>
-            <li><a href="#" class="prolifeBtns">Moje posty</a></li>
-            <ul><a href="#" class="prolifeBtns">Zmiana hasla</a></ul>
-            <li><a href="#" class="prolifeBtns">Zmiana maila</a></li>
-            <li><a href="#" class="prolifeBtns">Wyloguj</a></li>
+            <li><a id="posty" href="#" class="prolifeBtns">Moje posty</a></li>
+            <ul><a id="zh" href="#" class="prolifeBtns">Zmiana hasla</a></ul>
+            <li><a id="zm" href="#" class="prolifeBtns">Zmiana maila</a></li>
+            <li><a id="w" href="#" class="prolifeBtns">Wyloguj</a></li>
           </ul>
         </div>
         <div class="contentQuestion">
 
-          <div class="contentInerQuestion">
+          <div id="panel" class="contentInerQuestion">
             <form action="" method="post">
               <input type="password" name="password" placeholder="Stare hasło">
               <input type="password" name="password" placeholder="Nowe hasło">
               <input type="password" name="password" placeholder="Hasło">
-              <div class="btns">
-                <input type="submit" class="btn-info btn loginBtn" value="Zmień hasło">
-              </div>
+              <input type="submit" class="btn-info btn loginBtn" value="Zmień hasło">
             </form>
           </div>
         </div>

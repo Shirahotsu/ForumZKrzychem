@@ -45,3 +45,7 @@ input{
   width: 60%;
   margin: auto;
 }
+
+.contentInerQuestion{
+  min-height: 200px;
+}

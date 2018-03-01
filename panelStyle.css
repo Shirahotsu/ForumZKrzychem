@@ -1,11 +1,20 @@
-.prolifeBtns{
+.panelBtns{
   color: #8b84cc;
-
+  background-color: transparent;
+  font-size: 1em;
+  margin: 0;
+  width: 100%;
+  border: 0;
 }
-.prolifeBtns:hover{
+.panelBtns:hover{
   color: #fff;
-
+  cursor: pointer;
 }
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
 .contentHeader  li,.contentHeader ul,.contentHeader input{
   height: inherit;
   width: 100%;
@@ -30,6 +39,7 @@ form{
 input{
   width: 60%;
   margin:20px;
+
 }
 .loginBtn{
   width: 60%;

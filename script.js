@@ -34,11 +34,7 @@ window.onclick = function(event) {
 };
 
 
-function showUser(str) {
-    if (str == "") {
-        document.getElementById("txtHint").innerHTML = "";
-        return;
-    } else {
+  $(document).ready(function(){
         if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
@@ -48,13 +44,12 @@ function showUser(str) {
         }
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("txtHint").innerHTML = this.responseText;
+                document.getElementById("posty").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","nwm.php?q="+str,true);
+        xmlhttp.open("GET","postyNastronie.php?elo=0",true);
         xmlhttp.send();
-    }
-}
+});
 
 
 
@@ -67,3 +62,9 @@ function showUser(str) {
 //     });
 //   }
 // })
+
+
+// <button type="button" class="btn btn-default" onclick="showUser()">
+//
+// </button>
+// <div id="txtHint"><b>Person info will be listed here...</b></div>

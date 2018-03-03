@@ -11,7 +11,11 @@
 
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="style2.css" type="text/css" />
+    <link rel="stylesheet" href="siteStyle.css" type="text/css" />
     <style>
+    .content{
+      padding-top: 200px;
+    }
     </style>
   </head>
 
@@ -50,19 +54,11 @@
     </div>
     <div class="content">
       <div class="postDiv">
-        <div id="mainQuestDiv">
-
-        </div>
-        <div class="contentAnswares">
-          <div class="contentAnswareHeader">#Wypierdalać</div>
-          <div class="contentAnsware">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloremque quibusdam quis, veritatis doloribus porro adipisci vero facere, velit saepe quasi illo quod aliquam natus, nobis cupiditate iusto minima! Eum dolores veritatis, laudantium vel itaque
-            praesentium veniam rem quod, consectetur, voluptate dolorem? Sint quod sapiente officia nulla vitae animi, architecto possimus tempore, vero, autem natus maiores pariatur ipsum eaque adipisci tenetur iusto iure non nostrum reprehenderit. Soluta
-            expedita optio aspernatur tempore sapiente officia, commodi quaerat. Deleniti in ducimus libero est doloribus maxime asperiores impedit, quas totam, labore optio delectus et, molestiae! Accusamus assumenda culpa, neque esse distinctio ab natus
-            dolore enim voluptatibus dolorem libero ipsam a suscipit aliquam quod, exercitationem, aspernatur aliquid eum voluptate. Possimus atque doloribus illo illum. Officia, voluptas aut eligendi quibusdam repellendus, iusto quos velit similique
-            ducimus minus repudiandae perspiciatis voluptates? Molestias, quas optio error explicabo perferendis non commodi reprehenderit ipsum! Officiis beatae distinctio deleniti, neque nam eos consequatur cumque, enim nisi nobis eaque soluta adipisci
-            error vero veniam totam ipsum ut veritatis a vel rerum ipsam? Facere laborum libero excepturi, ratione id, sed doloribus ex maxime cupiditate nesciunt distinctio nisi magnam tempora aliquam reiciendis deleniti at alias. Sint minus doloribus
-            ex aliquam deleniti debitis facilis corrupti.
+        <div class="content">
+          <div class="postDiv">
+            <div id="posty">
+              
+            </div>
           </div>
         </div>
       </div>
@@ -71,7 +67,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="onePostScript.js"></script>
+    <script src="script.js"></script>
   </body>
 
   </html>

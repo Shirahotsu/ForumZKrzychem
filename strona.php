@@ -13,10 +13,6 @@
     <link rel="stylesheet" href="style2.css" type="text/css" />
     <link rel="stylesheet" href="siteStyle.css" type="text/css" />
     <style>
-    .content{
-      padding-top: 200px;
-    }
-
 
     </style>
   </head>
@@ -56,13 +52,7 @@
     </div>
     <div class="content">
       <div class="postDiv">
-        <div class="content">
-          <div class="postDiv">
-            <div id="posty">
-
-            </div>
-          </div>
-        </div>
+        <div id="posty"></div>
       </div>
     </div>
 

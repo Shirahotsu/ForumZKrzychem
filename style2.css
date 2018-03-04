@@ -252,7 +252,10 @@ z-index: 20;
 .opis{
   margin-top: 20px;
 }
-
+.infoUnder{
+  font-size: 0.6em;
+  color: #cecece;
+}
 
 
 

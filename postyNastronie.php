@@ -40,11 +40,9 @@ echo<<<END
 <div class="contentHeader">
   <a href="nwm.php?post=$id">$header</a>
   <p class="opis">
-    <ul>
       <span class="infoUnder">$user</span>
       <span class="infoUnder">$time</span>
-      <spanclass="infoUnder">$category</span>
-    </ul>
+      <span class="infoUnder">$category</span>
   </p>
 </div>
 END;

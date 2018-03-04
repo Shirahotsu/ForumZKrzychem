@@ -7,7 +7,7 @@ mysqli_query($polaczenie, "SET NAMES 'utf8' COLLATE 'utf8_polish_ci'");
 mysqli_select_db($polaczenie, $database);
 
 // get the q parameter from URL
-$nr = $_GET["elo"];
+$nr = $_GET["post"];
 $nr = intval($nr);
 $zapytanietxt = "SELECT *
 FROM dane

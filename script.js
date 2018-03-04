@@ -47,7 +47,7 @@ window.onclick = function(event) {
                 document.getElementById("posty").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","postyNastronie.php?elo=0",true);
+        xmlhttp.open("GET","postyNastronie.php?post=0",true);
         xmlhttp.send();
 });
 

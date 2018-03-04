@@ -7,7 +7,7 @@ mysqli_query($polaczenie, "SET NAMES 'utf8' COLLATE 'utf8_polish_ci'");
 mysqli_select_db($polaczenie, $database);
 
 // get the parameter from URL
-$nr = $_GET["elo"];
+$nr = $_GET["post"];
 $nr = intval($nr);
 $i = $nr;
 while ($i < 5)
@@ -29,11 +29,22 @@ while ($i < 5)
 
 $rezultat = mysqli_query($polaczenie, $zapytanietxt);
 		$row = mysqli_fetch_assoc($rezultat);
-    $header = $row['header'];
     $id = $row['id'];
+    $user = $row['user'];
+    $header = $row['header'];
+    $post = $row['conntent'];
+    $time = $row['time'];
+    $category = $row['category'];
 
 echo<<<END
-<div class="contentHeader"><a href="nwm.php?elo=$id">$header</a></div>
+<div class="contentHeader">
+  <a href="nwm.php?post=$id">$header</a>
+  <p>
+      <span>$user</span>
+      <span>$time</span>
+      <span>$category</span>
+  </p>
+</div>
 END;
 $i++;
 }

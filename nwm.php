@@ -106,7 +106,7 @@ echo<<<END
         </div>
         </div>
         <div class="contentAnswares">
-          <div class="contentAnswareHeader">#Wypierdalać</div>
+          <div class="contentAnswareHeader">#WnoTak</div>
           <div class="contentAnsware">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloremque quibusdam quis, veritatis doloribus porro adipisci vero facere, velit saepe quasi illo quod aliquam natus, nobis cupiditate iusto minima! Eum dolores veritatis, laudantium vel itaque
             praesentium veniam rem quod, consectetur, voluptate dolorem? Sint quod sapiente officia nulla vitae animi, architecto possimus tempore, vero, autem natus maiores pariatur ipsum eaque adipisci tenetur iusto iure non nostrum reprehenderit. Soluta
@@ -123,7 +123,7 @@ echo<<<END
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="onePostScript.js"></script>
+    <script src="script.js"></script>
   </body>
 
   </html>

@@ -88,7 +88,14 @@ z-index: 20;
 
 }
 
-.profile  li,ul{
+.profile  li{
+  height: inherit;
+  width: 100%;
+  font-size: 1.4em;
+  align-items: center;
+  display: flex;
+}
+.profile ul{
   height: inherit;
   width: 100%;
   font-size: 1.4em;
@@ -186,10 +193,7 @@ z-index: 20;
   margin-bottom: 10px;
   z-index: 20;
 }
-.contentHeader p{
-  font-size: 1em;
-  margin-right: 10px;
-}
+
 .contentQuestion{
   background-color: #fff;
   padding: 18px;
@@ -245,8 +249,13 @@ z-index: 20;
   background-color: #fff;
 }
 
-
-
+.opis{
+  margin-top: 20px;
+}
+.infoUnder{
+  margin-right: 10px;
+  font-size: 1em;
+}
 
 
 

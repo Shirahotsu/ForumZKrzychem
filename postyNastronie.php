@@ -39,10 +39,12 @@ $rezultat = mysqli_query($polaczenie, $zapytanietxt);
 echo<<<END
 <div class="contentHeader">
   <a href="nwm.php?post=$id">$header</a>
-  <p>
-      <span>$user</span>
-      <span>$time</span>
-      <span>$category</span>
+  <p class="opis">
+    <ul>
+      <li class="infoUnder">$user</li>
+      <li class="infoUnder">$time</li>
+      <li class="infoUnder">$category</li>
+    </ul>
   </p>
 </div>
 END;

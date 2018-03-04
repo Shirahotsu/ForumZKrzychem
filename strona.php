@@ -16,6 +16,8 @@
     .content{
       padding-top: 200px;
     }
+
+
     </style>
   </head>
 
@@ -57,7 +59,7 @@
         <div class="content">
           <div class="postDiv">
             <div id="posty">
-              
+
             </div>
           </div>
         </div>

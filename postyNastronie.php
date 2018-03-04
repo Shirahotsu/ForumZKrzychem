@@ -41,9 +41,9 @@ echo<<<END
   <a href="nwm.php?post=$id">$header</a>
   <p class="opis">
     <ul>
-      <li class="infoUnder">$user</li>
-      <li class="infoUnder">$time</li>
-      <li class="infoUnder">$category</li>
+      <span class="infoUnder">$user</span>
+      <span class="infoUnder">$time</span>
+      <spanclass="infoUnder">$category</span>
     </ul>
   </p>
 </div>
